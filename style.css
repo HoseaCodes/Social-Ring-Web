@@ -115,7 +115,7 @@ form {
 }
 .subscribe-form input[type="email"]::placeholder, .subscribe-form input[type="text"]::placeholder {
   font-size: 1.3rem;
-  width: fit-content;
+  width: 100%;
 }
 
 header .subscribe .subscribe-form input[type="email"], .subscribe-form input[type="text"] {
@@ -247,7 +247,7 @@ footer {
   }
   .first-sub-title {
     text-align: center;
-    font-size: 2.5rem !important;
+    font-size: 3.5rem !important;
   }
   .sub-title {
     width: 90%;
