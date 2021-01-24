@@ -224,6 +224,10 @@ footer {
   .title {
     display: none;
   }
+  .mobile-title {
+    display: block;
+
+  }
   .ring {
     height: 6rem !important;
   }
