@@ -117,7 +117,7 @@ form {
   font-size: 1.3rem;
 }
 .subscribe-form input[type="email"]:placeholder-shown, .subscribe-form input[type="text"]:placeholder-shown {
-  width: 100%;
+  height: fit-content;
 }
 
 header .subscribe .subscribe-form input[type="email"], .subscribe-form input[type="text"] {
