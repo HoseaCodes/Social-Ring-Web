@@ -211,7 +211,7 @@ footer {
 
 @media (max-width: 575px) {
   h1 {
-    font-size: 5rem !important;
+    font-size: 4rem !important;
   }
   .ring {
     height: 6rem !important;
@@ -220,7 +220,7 @@ footer {
     display: flex;
     justify-self: center;
     align-self: center;
-    height: 15rem;
+    height: 13rem;
   }
   .logo-div {
     display: flex;
@@ -228,11 +228,11 @@ footer {
   }
   .first-sub-title {
     text-align: center;
-    font-size: 2rem;
+    font-size: 1.5rem;
   }
   .sub-title {
-    width: 100%;
-    font-size: 2rem;
+    width: 90%;
+    font-size: 1.5rem;
     letter-spacing: .2rem;
   }
   .sub-title2 {
