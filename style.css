@@ -238,7 +238,7 @@ footer {
     display: flex;
     justify-self: center;
     align-self: center;
-    height: 9rem;
+    height: 9rem !important;
   }
   .logo-div {
     display: flex;
@@ -250,7 +250,7 @@ footer {
   }
   .sub-title {
     width: 80%;
-    font-size: 1.5rem !important;
+    font-size: 2rem !important;
     letter-spacing: .2rem;
   }
   .sub-title2 {
