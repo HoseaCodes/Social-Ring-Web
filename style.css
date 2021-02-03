@@ -145,12 +145,17 @@ header .subscribe .subscribe-form input[type="email"], .subscribe-form input[typ
   position: absolute;
   top: 45%;
   left: 5%;
+  width: 20rem;
+  height: 35rem;
 }
 
 .phone2 {
   position: absolute;
   top: 45%;
   right: 5%;
+  width: 20rem;
+  height: 35rem;
+
 }
 .title {
   display: flex;
@@ -216,6 +221,22 @@ footer {
   background: rgba(19, 19, 19, 0.4);
   padding: 10px 0;
   position: relative;
+}
+
+.footer-link-group {
+  display: flex;
+  justify-content: center;
+}
+
+.footer-link {
+  text-decoration: none;
+  color: whitesmoke;
+}
+
+.footer-links {
+  padding: 2%;
+  text-decoration: none;
+  list-style: none;
 }
 
 @media (max-width: 575px) {
