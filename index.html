@@ -11,101 +11,261 @@
   <link
     href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,600,600i,700,700i"
     rel="stylesheet">
-  <link href="style.css" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Abhaya+Libre:wght@400;500;600;700;800&display=swap"
+    rel="stylesheet">
+  <!-- Bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+  <!--Font Awesome-->
+  <script src="https://kit.fontawesome.com/09ecdfd92d.js" crossorigin="anonymous"></script>
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
+  <div class="container-fluid main-container">
 
-  <header>
-    <div class="top-wrapper">
-      <h1 class="title">S<span><img class="ring" src="ring.png" alt="ring"></span> cial-Ring</h1>
-      <h1 class="mobile-title">S<span><img class="ring" src="ring.png" alt="ring"></span>cial </h1>
-      <h1 class="mobile-title">Ring</h1>
-      <div>
-        <div class="logo-div">
-          <img class="ring-circle" src="social-logo.png" alt="logo">
+    <!-- NavBar Bootstrap -->
+    <header>
+      <nav class="navbar navbar-expand-lg navbar-light bg-light ">
+        <div class="container-fluid">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+            aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <a class="navbar-brand" href="#">
+            <h1 class="title">S<span><img class="ring" src="ring.png" alt="ring" width="50rem"></span>cial-Ring</h1>
+          </a>
+          <div class="collapse navbar-collapse " id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto mb-2 mb-lg-0 navbar-right">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#about">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#team">Team</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#services">Services</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#contact">Contact</a>
+              </li>
+            </ul>
+          </div>
         </div>
-        <!-- <div class="countdown " data-count="2021/2/1">
-          <div>
-            <h3 id="days"></h3>
-            <h4>Days</h4>
-          </div>
-          <div>
-            <h3 id="hours"></h3>
-            <h4>Hours</h4>
-          </div>
-          <div>
-            <h3 id="minutes"></h3>
-            <h4>Minutes</h4>
-          </div>
-          <div>
-            <h3 id="seconds"></h3>
-            <h4>Seconds</h4>
-          </div>
-        </div> -->
-        <img class="phone1" src="main.png" alt="social-ring">
-      </div>
-      <div>
-        <img class="phone2" src="second.png" alt="social-ring">
-        <div class="subscribe">
-          <h2>You can be the next face of social ring!</h2>
-          <h2>Subscribe now to see what is going on!</h2>
-          <form action="/thanks.html" id="contact-form" method="POST" role="form" data-netlify="true"
-            class="php-email-form" name="socail-ring-subscription">
-            <div class="subscribe-form">
-              <input type="text" name="name" placeholder="Your Name">
-            </div>
-            <div class="subscribe-form">
-              <input type="email" name="email" placeholder="Your E-Mail">
-            </div>
-            <button class="btn" type="submit" name="submit">Subscribe</button>
-            <br>
-          </form>
-        </div>
-      </div>
-    </div>
-  </header>
-  <main>
-    <section class="info-section">
-      <div class="info-wrapper">
-        <h2 class="sub-title">Unlimited access to over 50 ring styles</h2>
-        <h3 class="sub-title2">New rings every week - in popular categories and growing. </h3>
-        <ul>
-          <li>
-            Make your social media images stand out.
-          </li>
-          <li>
-            Stay inspired and show your personal on your favorite social plateform.
-          </li>
-          <li>
-            Even if you’re just starting out or have a small following
-            Social-Ring will give you that flare to have you stand out.
-
-          </li>
-        </ul>
-      </div>
-    </section>
-  </main>
-  <footer id="footer">
-    <div style="text-align: center;">
-      <p>
-        &copy; Copyright <strong><span>Social-Ring</span></strong>
-      </p>
-      <nav class="footer-link-group">
-        <li class="footer-links">
-          <a class="footer-link" href="policy.html">Privacy Policy</a>
-        </li>
-        <li class="footer-links">
-          <a class="footer-link" href="terms.html">Terms & Conditions</a>
-        </li>
       </nav>
-      <p>
-        All Rights Reserved
-        By <a style="color: #AA076B;" href="https://www.hoseacodes.com/">Hoseacodes</a>
-      </p>
+    </header>
+    <!-- NavBar Bootstrap -->
+    <main>
+
+      <!-- About Section -->
+      <section id="header">
+        <div class="container-fluid">
+
+          <div class="header-img">
+            <div class="overlay"></div>
+
+          </div>
+          <!-- <button type="button" class="btn add btn-primary">ADD PICTURE</button> -->
+        </div>
+      </section>
+      <!-- Services Section -->
+      <section id="about">
+        <div class="container-fluid">
+          <div class="about">
+            <div class="about-info">
+              <h2 class="about-title">Who Are We</h2>
+              <p class="about-text">Social Ring is an IOS app that lets you create custom rings for your profile
+                pictures
+                on
+                Clubhouse, Instagram, or your favorite social media platform.</p>
+              <p class="about-text">Create profile pictures with a variety of custom-made borders. Choose from over 50
+                borders.
+              </p>
+            </div>
+            <div class="about-phone">
+              <img src="categories.png" alt="categories">
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Team Section -->
+      <section id="team">
+        <div class="container-fluid">
+
+          <h2 class="team-title">Follow the Team</h2>
+          <div class="team-group">
+
+            <div class="team-ind">
+              <h3 class="team-name">Elvonte Patton</h3>
+              <h3 class="team-title"> Founder</h3>
+              <img src="logo.png" alt="Elvonte">
+              <div class="team-social">
+                <a class="icon" href="">
+                  <i class="fab fa-instagram"></i>
+                </a>
+                <a class="icon" href="">
+                  <i class="fab fa-facebook-square"></i>
+                </a>
+                <a class="icon" href="">
+                  <i class="fas fa-home"></i>
+                  <h3>Clubhouse</h3>
+                </a>
+              </div>
+            </div>
+            <div class="team-ind">
+              <h3 class="team-name">Ashley Patton</h3>
+              <h3 class="team-title"> Model</h3>
+              <img src="logo.png" alt="Ashley">
+              <div class="team-social">
+                <a class="icon" href="">
+                  <i class="fab fa-instagram"></i>
+                </a>
+                <a class="icon" href="">
+                  <i class="fab fa-facebook-square"></i>
+                </a>
+                <a class="icon" href="">
+                  <i class="fas fa-home"></i>
+                  <h3>Clubhouse</h3>
+                </a>
+              </div>
+            </div>
+            <div class="team-ind">
+              <h3 class="team-name">Dominique Hosea</h3>
+              <h3 class="team-title">Developer</h3>
+              <img src="logo2.png" alt="Dominique">
+              <div class="team-social">
+                <a class="icon" href="">
+                  <i class="fab fa-instagram"></i>
+                </a>
+                <a class="icon" href="">
+                  <i class="fab fa-facebook-square"></i>
+                </a>
+                <a class="icon" href="">
+                  <i class="fas fa-home"></i>
+                  <h3>Clubhouse</h3>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Services Section -->
+
+      <section id="services">
+        <div class="container-fluid">
+
+          <div class="services-group">
+            <h2 class="services-title">What We Offer</h2>
+            <h2 class="services-subtitle">Curious? Here are our most popular rings</h2>
+          </div>
+          <div class="services-info-group">
+            <div class="services-info-ind">
+              <div class="services-card">
+                <img src="logo.png" alt="Ashley">
+                <div class="dropdown">
+                  <a class="btn btn-secondary dropdown-toggle" href="#" role="button" id="dropdownMenuLink"
+                    data-bs-toggle="dropdown" aria-expanded="false">
+                    College </a>
+
+                  <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                    <li><a class="dropdown-item" href="#">Action</a></li>
+                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                  </ul>
+                </div>
+              </div>
+
+            </div>
+            <div class="services-info-ind">
+              <div class="services-card">
+                <img src="logo.png" alt="Ashley">
+                <div class="dropdown">
+                  <a class="btn btn-secondary dropdown-toggle" href="#" role="button" id="dropdownMenuLink"
+                    data-bs-toggle="dropdown" aria-expanded="false">
+                    Divine 9 </a>
+
+                  <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                    <li><a class="dropdown-item" href="#">Action</a></li>
+                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                  </ul>
+                </div>
+              </div>
+
+            </div>
+            <div class="services-info-ind">
+              <div class="services-card">
+                <img src="logo.png" alt="Ashley">
+                <div class="dropdown">
+                  <a class="btn btn-secondary dropdown-toggle" href="#" role="button" id="dropdownMenuLink"
+                    data-bs-toggle="dropdown" aria-expanded="false">
+                    Flags </a>
+
+                  <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                    <li><a class="dropdown-item" href="#">Action</a></li>
+                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                  </ul>
+                </div>
+              </div>
+
+            </div>
+          </div>
+      </section>
+      <section id="contact">
+        <div>
+          <h2 class="contact-title">Contact Us</h2>
+          <a class="contact-icon" href="">
+            <i class="fab fa-instagram"></i>
+          </a>
+          <a class="contact-icon" href="">
+            <i class="fab fa-facebook-square"></i>
+          </a>
+          <a class="contact-icon" href="">
+            <i class="fas fa-home"></i>
+          </a>
+        </div>
+        <img src="logo.png" alt="Ashley" />
+        <div class="contact-download">
+          <h2 class="contact-title">Download</h2>
+          <a class=" download btn btn-outline-secondary" href="#"><i class="fab fa-apple"></i> Download </a>
+        </div>
+  </div>
+  </section>
+  </main>
+
+  <footer id="footer">
+    <div class="container-fluid">
+
+      <div style="text-align: center;">
+
+        <nav class="footer-link-group">
+          <li class="footer-links">
+            <a class="footer-link" href="policy.html">Privacy Policy</a>
+          </li>
+          <li class="footer-links">
+            <a class="footer-link" href="terms.html">Terms & Conditions</a>
+          </li>
+        </nav>
+        <p>
+          Developed
+          By <a href="https://www.dominiquehosea.com/">Hoseacodes</a>
+        </p>
+      </div>
     </div>
   </footer>
-  <script src="script.js"></script>
+  </div>
+
+  <!--Bootstrap-->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW"
+    crossorigin="anonymous"></script>
 </body>
 
 </html>
